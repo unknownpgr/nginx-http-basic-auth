@@ -8,7 +8,7 @@ env:
   REGISTRY_PASSWORD: ${{ secrets.REGISTRY_PASSWORD }}
 
   REPOSITORY: ${{ github.event.repository.name }}
-  RELEASE_REVISION: "${{ github.sha }}"
+  RELEASE_REVISION: latest
 
 jobs:
   build-test:
