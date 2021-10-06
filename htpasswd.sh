@@ -1,0 +1,1 @@
+docker run --rm -it --entrypoint htpasswd httpd:2 -Bn $1
