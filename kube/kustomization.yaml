@@ -1,0 +1,5 @@
+resources:
+  - deploy-istio.yaml
+commonLabels:
+  type: nginx-basic-auth
+  name: $APP_NAME
